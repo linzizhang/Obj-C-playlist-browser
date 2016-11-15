@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32FA2F221DDA9CF1007D70ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA2F211DDA9CF1007D70ED /* main.m */; };
+		32FA2F251DDA9CF1007D70ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA2F241DDA9CF1007D70ED /* AppDelegate.m */; };
+		32FA2F281DDA9CF1007D70ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA2F271DDA9CF1007D70ED /* ViewController.m */; };
+		32FA2F2B1DDA9CF1007D70ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA2F291DDA9CF1007D70ED /* Main.storyboard */; };
+		32FA2F2D1DDA9CF1007D70ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FA2F2C1DDA9CF1007D70ED /* Assets.xcassets */; };
+		32FA2F301DDA9CF1007D70ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA2F2E1DDA9CF1007D70ED /* LaunchScreen.storyboard */; };
+		32FA2F3B1DDA9CF1007D70ED /* Playlist_BrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA2F3A1DDA9CF1007D70ED /* Playlist_BrowserTests.m */; };
+		32FA2F461DDA9CF1007D70ED /* Playlist_BrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA2F451DDA9CF1007D70ED /* Playlist_BrowserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32FA2F371DDA9CF1007D70ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FA2F151DDA9CF1007D70ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FA2F1C1DDA9CF1007D70ED;
+			remoteInfo = "Playlist Browser";
+		};
+		32FA2F421DDA9CF1007D70ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FA2F151DDA9CF1007D70ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FA2F1C1DDA9CF1007D70ED;
+			remoteInfo = "Playlist Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32FA2F1D1DDA9CF1007D70ED /* Playlist Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playlist Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FA2F211DDA9CF1007D70ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32FA2F231DDA9CF1007D70ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32FA2F241DDA9CF1007D70ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32FA2F261DDA9CF1007D70ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32FA2F271DDA9CF1007D70ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32FA2F2A1DDA9CF1007D70ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FA2F2C1DDA9CF1007D70ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FA2F2F1DDA9CF1007D70ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32FA2F311DDA9CF1007D70ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FA2F361DDA9CF1007D70ED /* Playlist BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playlist BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FA2F3A1DDA9CF1007D70ED /* Playlist_BrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playlist_BrowserTests.m; sourceTree = "<group>"; };
+		32FA2F3C1DDA9CF1007D70ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FA2F411DDA9CF1007D70ED /* Playlist BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playlist BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FA2F451DDA9CF1007D70ED /* Playlist_BrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playlist_BrowserUITests.m; sourceTree = "<group>"; };
+		32FA2F471DDA9CF1007D70ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FA2F1A1DDA9CF1007D70ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FA2F331DDA9CF1007D70ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FA2F3E1DDA9CF1007D70ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32FA2F141DDA9CF1007D70ED = {
+			isa = PBXGroup;
+			children = (
+				32FA2F1F1DDA9CF1007D70ED /* Playlist Browser */,
+				32FA2F391DDA9CF1007D70ED /* Playlist BrowserTests */,
+				32FA2F441DDA9CF1007D70ED /* Playlist BrowserUITests */,
+				32FA2F1E1DDA9CF1007D70ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32FA2F1E1DDA9CF1007D70ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FA2F1D1DDA9CF1007D70ED /* Playlist Browser.app */,
+				32FA2F361DDA9CF1007D70ED /* Playlist BrowserTests.xctest */,
+				32FA2F411DDA9CF1007D70ED /* Playlist BrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FA2F1F1DDA9CF1007D70ED /* Playlist Browser */ = {
+			isa = PBXGroup;
+			children = (
+				32FA2F231DDA9CF1007D70ED /* AppDelegate.h */,
+				32FA2F241DDA9CF1007D70ED /* AppDelegate.m */,
+				32FA2F261DDA9CF1007D70ED /* ViewController.h */,
+				32FA2F271DDA9CF1007D70ED /* ViewController.m */,
+				32FA2F291DDA9CF1007D70ED /* Main.storyboard */,
+				32FA2F2C1DDA9CF1007D70ED /* Assets.xcassets */,
+				32FA2F2E1DDA9CF1007D70ED /* LaunchScreen.storyboard */,
+				32FA2F311DDA9CF1007D70ED /* Info.plist */,
+				32FA2F201DDA9CF1007D70ED /* Supporting Files */,
+			);
+			path = "Playlist Browser";
+			sourceTree = "<group>";
+		};
+		32FA2F201DDA9CF1007D70ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32FA2F211DDA9CF1007D70ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32FA2F391DDA9CF1007D70ED /* Playlist BrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				32FA2F3A1DDA9CF1007D70ED /* Playlist_BrowserTests.m */,
+				32FA2F3C1DDA9CF1007D70ED /* Info.plist */,
+			);
+			path = "Playlist BrowserTests";
+			sourceTree = "<group>";
+		};
+		32FA2F441DDA9CF1007D70ED /* Playlist BrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32FA2F451DDA9CF1007D70ED /* Playlist_BrowserUITests.m */,
+				32FA2F471DDA9CF1007D70ED /* Info.plist */,
+			);
+			path = "Playlist BrowserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32FA2F1C1DDA9CF1007D70ED /* Playlist Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FA2F4A1DDA9CF1007D70ED /* Build configuration list for PBXNativeTarget "Playlist Browser" */;
+			buildPhases = (
+				32FA2F191DDA9CF1007D70ED /* Sources */,
+				32FA2F1A1DDA9CF1007D70ED /* Frameworks */,
+				32FA2F1B1DDA9CF1007D70ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Playlist Browser";
+			productName = "Playlist Browser";
+			productReference = 32FA2F1D1DDA9CF1007D70ED /* Playlist Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32FA2F351DDA9CF1007D70ED /* Playlist BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FA2F4D1DDA9CF1007D70ED /* Build configuration list for PBXNativeTarget "Playlist BrowserTests" */;
+			buildPhases = (
+				32FA2F321DDA9CF1007D70ED /* Sources */,
+				32FA2F331DDA9CF1007D70ED /* Frameworks */,
+				32FA2F341DDA9CF1007D70ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FA2F381DDA9CF1007D70ED /* PBXTargetDependency */,
+			);
+			name = "Playlist BrowserTests";
+			productName = "Playlist BrowserTests";
+			productReference = 32FA2F361DDA9CF1007D70ED /* Playlist BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32FA2F401DDA9CF1007D70ED /* Playlist BrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FA2F501DDA9CF1007D70ED /* Build configuration list for PBXNativeTarget "Playlist BrowserUITests" */;
+			buildPhases = (
+				32FA2F3D1DDA9CF1007D70ED /* Sources */,
+				32FA2F3E1DDA9CF1007D70ED /* Frameworks */,
+				32FA2F3F1DDA9CF1007D70ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FA2F431DDA9CF1007D70ED /* PBXTargetDependency */,
+			);
+			name = "Playlist BrowserUITests";
+			productName = "Playlist BrowserUITests";
+			productReference = 32FA2F411DDA9CF1007D70ED /* Playlist BrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32FA2F151DDA9CF1007D70ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Linzi Zhang";
+				TargetAttributes = {
+					32FA2F1C1DDA9CF1007D70ED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					32FA2F351DDA9CF1007D70ED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32FA2F1C1DDA9CF1007D70ED;
+					};
+					32FA2F401DDA9CF1007D70ED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32FA2F1C1DDA9CF1007D70ED;
+					};
+				};
+			};
+			buildConfigurationList = 32FA2F181DDA9CF1007D70ED /* Build configuration list for PBXProject "Playlist Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32FA2F141DDA9CF1007D70ED;
+			productRefGroup = 32FA2F1E1DDA9CF1007D70ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FA2F1C1DDA9CF1007D70ED /* Playlist Browser */,
+				32FA2F351DDA9CF1007D70ED /* Playlist BrowserTests */,
+				32FA2F401DDA9CF1007D70ED /* Playlist BrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32FA2F1B1DDA9CF1007D70ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FA2F301DDA9CF1007D70ED /* LaunchScreen.storyboard in Resources */,
+				32FA2F2D1DDA9CF1007D70ED /* Assets.xcassets in Resources */,
+				32FA2F2B1DDA9CF1007D70ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FA2F341DDA9CF1007D70ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FA2F3F1DDA9CF1007D70ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FA2F191DDA9CF1007D70ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FA2F281DDA9CF1007D70ED /* ViewController.m in Sources */,
+				32FA2F251DDA9CF1007D70ED /* AppDelegate.m in Sources */,
+				32FA2F221DDA9CF1007D70ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FA2F321DDA9CF1007D70ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FA2F3B1DDA9CF1007D70ED /* Playlist_BrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FA2F3D1DDA9CF1007D70ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FA2F461DDA9CF1007D70ED /* Playlist_BrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32FA2F381DDA9CF1007D70ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FA2F1C1DDA9CF1007D70ED /* Playlist Browser */;
+			targetProxy = 32FA2F371DDA9CF1007D70ED /* PBXContainerItemProxy */;
+		};
+		32FA2F431DDA9CF1007D70ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FA2F1C1DDA9CF1007D70ED /* Playlist Browser */;
+			targetProxy = 32FA2F421DDA9CF1007D70ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32FA2F291DDA9CF1007D70ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FA2F2A1DDA9CF1007D70ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32FA2F2E1DDA9CF1007D70ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FA2F2F1DDA9CF1007D70ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32FA2F481DDA9CF1007D70ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32FA2F491DDA9CF1007D70ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32FA2F4B1DDA9CF1007D70ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Playlist Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "linzi.Playlist-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32FA2F4C1DDA9CF1007D70ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Playlist Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "linzi.Playlist-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32FA2F4E1DDA9CF1007D70ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Playlist BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "linzi.Playlist-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playlist Browser.app/Playlist Browser";
+			};
+			name = Debug;
+		};
+		32FA2F4F1DDA9CF1007D70ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Playlist BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "linzi.Playlist-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playlist Browser.app/Playlist Browser";
+			};
+			name = Release;
+		};
+		32FA2F511DDA9CF1007D70ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Playlist BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "linzi.Playlist-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Playlist Browser";
+			};
+			name = Debug;
+		};
+		32FA2F521DDA9CF1007D70ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Playlist BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "linzi.Playlist-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Playlist Browser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32FA2F181DDA9CF1007D70ED /* Build configuration list for PBXProject "Playlist Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FA2F481DDA9CF1007D70ED /* Debug */,
+				32FA2F491DDA9CF1007D70ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FA2F4A1DDA9CF1007D70ED /* Build configuration list for PBXNativeTarget "Playlist Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FA2F4B1DDA9CF1007D70ED /* Debug */,
+				32FA2F4C1DDA9CF1007D70ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32FA2F4D1DDA9CF1007D70ED /* Build configuration list for PBXNativeTarget "Playlist BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FA2F4E1DDA9CF1007D70ED /* Debug */,
+				32FA2F4F1DDA9CF1007D70ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32FA2F501DDA9CF1007D70ED /* Build configuration list for PBXNativeTarget "Playlist BrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FA2F511DDA9CF1007D70ED /* Debug */,
+				32FA2F521DDA9CF1007D70ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32FA2F151DDA9CF1007D70ED /* Project object */;
+}
